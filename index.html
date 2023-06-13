@@ -1,27 +1,36 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <title>Landing Page</title>
-    <link rel="stylesheet" type="text/css" href="./style.css" />
-  </head>
-  <body>
-    <nav class="zone sticky">
-      <ul class="main-nav">
-        <li><a href="">About</a></li>
-        <li><a href="">Products</a></li>
-        <li><a href="">Our Team</a></li>
-        <li class="push"><a href="">Contact</a></li>
-      </ul>
-    </nav>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do List</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+  
+</head>
+<body>
+    
+    
     <div class="container">
-      <img class="cover" src="cover.jpg" />
-      <div class="coverText"><h1>All that glitters is not gold</h1></div>
+        <header>
+            <h2>To-Do List</h2>
+
+        </header>
+        <div class="inputs">
+            <input type="text" id="text" name="search" class="search" placeholder="Enter Tasks here">
+            <i class="fas fa-plus" id="add"></i>
+        </div>
     </div>
+    <div>
+        <ol id="list_item"></ol>
     </div>
-    <footer class="zone">
-      <p>
-        Created by Vikas ©2023
-      </p>
-    </footer>
-  </body>
+
+    <p id="bottom" >
+        Created by Vikas
+    </p>
+
+    
+    <script src="script.js"></script>
+</body>
 </html>
